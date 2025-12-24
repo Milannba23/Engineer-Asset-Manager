@@ -1,0 +1,109 @@
+/* General page styling */
+body { 
+    font-family: 'Segoe UI', Arial, sans-serif; 
+    margin: 40px; 
+    background: #f4f7f6; 
+    color: #333; 
+}
+
+.container { 
+    background: white; 
+    padding: 30px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+    max-width: 1000px; 
+    margin: auto; 
+}
+
+h2 { 
+    color: #2c3e50; 
+    margin-top: 0; 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+/* Form styling */
+form { 
+    background: #f9f9f9; 
+    padding: 20px; 
+    border-radius: 8px; 
+    margin-bottom: 30px; 
+    display: flex; 
+    gap: 10px; 
+    flex-wrap: wrap; 
+    border: 1px solid #eee; 
+}
+
+input { 
+    padding: 12px; 
+    border: 1px solid #ddd; 
+    border-radius: 6px; 
+    flex: 1; 
+    min-width: 200px; 
+    font-size: 14px; 
+}
+
+button { 
+    padding: 12px 25px; 
+    background: #27ae60; 
+    color: white; 
+    border: none; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    font-weight: bold; 
+    transition: background 0.3s; 
+}
+
+button:hover { 
+    background: #219150; 
+}
+
+/* Table styling */
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 10px; 
+    background: white; 
+}
+
+th, td { 
+    border-bottom: 1px solid #eee; 
+    padding: 15px; 
+    text-align: left; 
+}
+
+th { 
+    background: #2c3e50; 
+    color: white; 
+    text-transform: uppercase; 
+    font-size: 13px; 
+    letter-spacing: 1px; 
+}
+
+tr:hover { 
+    background-color: #fcfcfc; 
+}
+
+/* Release button action */
+.release-btn { 
+    color: #e74c3c; 
+    text-decoration: none; 
+    font-weight: bold; 
+    padding: 5px 10px; 
+    border: 1px solid #e74c3c; 
+    border-radius: 4px; 
+    font-size: 13px; 
+    transition: 0.3s; 
+}
+
+.release-btn:hover { 
+    background: #e74c3c; 
+    color: white; 
+}
+
+.no-data { 
+    text-align: center; 
+    padding: 20px; 
+    color: #7f8c8d; 
+}
