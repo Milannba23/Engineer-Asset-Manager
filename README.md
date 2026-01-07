@@ -15,35 +15,17 @@ A comprehensive PHP/MySQL web application for tracking engineering equipment and
 - **Frontend**: HTML5, CSS3 (Custom Flexbox Grid)
 
 ## ⚙️ Installation & Setup
-<<<<<<< HEAD
-1. Import the database schema from `inzinjerska_evidencija.sql`.
-2. Configure credentials in `db.php`.
-3. Run on a local server like XAMPP or WAMP.
-
----
-
-=======
 1. Import the database schema from `inzinjerska_evidencija.sql` (if available).
 2. Configure credentials in `db.php`.
 3. Run on a local server like XAMPP or WAMP.
 
->>>>>>> 3ca5c953eacd7009d186da4d266879389eb20e1a
 ## 📸 Project Preview
 
 ### Backend - Database Structure
 The application uses a MySQL table `equipment` to manage and track assets with optimized data types.
-<<<<<<< HEAD
-![Database Structure](./database-structure.png)
-
-### Frontend - User Interface
-The UI is designed for efficiency, allowing engineers to easily assign and release equipment in real-time.
-![Main Interface](./app-preview.png)
-![Inventory Table](./inventory-list.png)
-=======
 ![Database Structure](./screenshots/database-structure.png)
 
 ### Frontend - User Interface
 The UI is designed for efficiency, allowing engineers to easily assign and release equipment in real-time.
 ![Main Interface](./screenshots/app-preview.png)
 ![Inventory Table](./screenshots/inventory-list.png)
->>>>>>> 3ca5c953eacd7009d186da4d266879389eb20e1a
