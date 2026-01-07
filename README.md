@@ -19,15 +19,13 @@ A comprehensive PHP/MySQL web application for tracking engineering equipment and
 2. Configure credentials in `db.php`.
 3. Run on a local server like XAMPP or WAMP.
 
----
-
 ## 📸 Project Preview
 
 ### Backend - Database Structure
 The application uses a MySQL table `equipment` to manage and track assets with optimized data types.
-![Database Structure](./screenshots/db-structure.png)
+![Database Structure](./screenshots/database-structure.png)
 
 ### Frontend - User Interface
 The UI is designed for efficiency, allowing engineers to easily assign and release equipment in real-time.
-![Main Interface](./screenshots/app-main.png)
-![Inventory Table](./screenshots/inventory.png)
+![Main Interface](./screenshots/app-preview.png)
+![Inventory Table](./screenshots/inventory-list.png)
